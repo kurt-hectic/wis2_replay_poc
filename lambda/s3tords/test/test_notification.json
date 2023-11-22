@@ -1,0 +1,23 @@
+{
+    "Records":[
+       {
+          "messageId":"063b9ae3-7323-45ca-b681-db1427614549",
+          "receiptHandle":"AQEBVq4IpPhzppFXINBnynIT+1e5pFF3wTLeJ6/blkhzpOfGe+Yb+go6Hj1JNOOjc5ZgP5q/kOL14vrNDdD63nGG06efgU8U9YD/9aCUVaFqPt0lUp/VrDVErijBElRQBWUfRDWrMZQGW6VMWcC6AGnAZHppPmApHwHeLKnOQSDx09NJA1eRXQOF751QNXP3Ym77U7U9doaCqO8Pj+tavEEasCV34PC31qKUQlDl1T4EE2NuvWO9DDTB+ipve/xSCMIF6HFg1+DmGUGQx3sGJ37wMDbKs1dBNaHxokVEyhfLm93/gtejibEMGUUH5PSxIv8PeygIAkP0NgU9b/ebUirM7f0TTTqs8mwk8Jzl5bQxN54CFtyGnyS+AZdoL/5qZdjiUbFjgjZHTZ8fYoHkLucJDUC5JJF6VxTww5nnG/N8ta5O0aUJddLVlgor4U/PdbDV",
+          "body":"{\"Records\":[{\"eventVersion\":\"2.1\",\"eventSource\":\"aws:s3\",\"awsRegion\":\"eu-central-1\",\"eventTime\":\"2023-06-15T09:06:55.068Z\",\"eventName\":\"ObjectCreated:Put\",\"userIdentity\":{\"principalId\":\"AWS:AROA2WMT2W3XNLEXJDV77:AWSFirehoseToS3\"},\"requestParameters\":{\"sourceIPAddress\":\"18.184.41.148\"},\"responseElements\":{\"x-amz-request-id\":\"3QNNEWD02GVYJ3AC\",\"x-amz-id-2\":\"x830XjWSZQ9lZJngjeiH9r8drhY8s+fKMvuTkdES5QttEed7uRbkLo7qdghiTHoanerjOEjp4Rkc5ZL9Bdy6Hy6mCQdiQF82\"},\"s3\":{\"s3SchemaVersion\":\"1.0\",\"configurationId\":\"ZmZmMzVkMDUtZDczMy00MWIwLWEyYWEtY2I4MjBlOGIyMzdl\",\"bucket\":{\"name\":\"wis2monitoringstack-wis2monkinesis2dmsa34e9291-9fo2eoblx5as\",\"ownerIdentity\":{\"principalId\":\"AHIA12Y3RUZPL\"},\"arn\":\"arn:aws:s3:::wis2monitoringstack-wis2monkinesis2dmsa34e9291-9fo2eoblx5as\"},\"object\":{\"key\":\"to-be-processed/notifications/2023/06/14/09/Wis2MonitoringStack-WIS2MonNotificationDeliveryStre-duE4ToX2HvKI-7-2023-06-14-09-03-05-20af2c2d-879e-41c1-98ff-22f3e59bdf70\",\"size\":3646110,\"eTag\":\"f788ec040340cf7d57927790feca8081\",\"sequencer\":\"00648AD4AF0068DD08\"}}}]}",
+          "attributes":{
+             "ApproximateReceiveCount":"1",
+             "SentTimestamp":"1686820016161",
+             "SenderId":"AIDAIZRJAGH76OE2BC64E",
+             "ApproximateFirstReceiveTimestamp":"1686820016163"
+          },
+          "messageAttributes":{
+             
+          },
+          "md5OfMessageAttributes":"None",
+          "md5OfBody":"dfe8e0b83e7bdba009abd1c7edd82fcd",
+          "eventSource":"aws:sqs",
+          "eventSourceARN":"arn:aws:sqs:eu-central-1:735286310638:Wis2MonitoringStack-s3importqueueE5EEC149-rJMVwytE4Qdy",
+          "awsRegion":"eu-central-1"
+       }
+    ]
+ }

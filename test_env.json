@@ -1,0 +1,10 @@
+{
+    "Parameters": {
+        "LAMBDA_LOG_LEVEL" : "INFO",
+        "DISABLE_FILTER" : "True",
+        "DB_OVERRIDE" : "host.docker.internal",
+        "SECRET_NAME" : "/wis2replaypocstack/rds/creds/mysql-01",
+        "BUCKET_NAME" : "obsdecoderstack-export16632b07-ig4diy8sp0bo"
+
+    }
+}
